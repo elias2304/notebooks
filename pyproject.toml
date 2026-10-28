@@ -7,8 +7,10 @@ dependencies = [
     "matplotlib>=3.11.2",
     "notebook>=7.6.3",
     "numpy>=2.5.3",
+    "pandas-stubs==3.0.5.260914",
     "polars>=2.0.0",
     "pymlaux",
+    "types-pandas==2.0.0",
 ]
 
 [tool.uv.sources]
