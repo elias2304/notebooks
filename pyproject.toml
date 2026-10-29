@@ -10,7 +10,11 @@ dependencies = [
     "pandas-stubs==3.0.5.260914",
     "polars>=2.0.0",
     "pymlaux",
+    "scipy>=1.18.1",
+    "scipy-stubs==1.18.1.1",
+    "statsmodels>=0.15.0",
     "types-pandas==2.0.0",
+    "yfinance>=1.7.0",
 ]
 
 [tool.uv.sources]
