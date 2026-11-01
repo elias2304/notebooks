@@ -1,10 +1,20 @@
 # Particle Swarm Optimization 
 - Explain the basic idea of particle swarm optimization (PSO).
-  - 
-- What are the mechanisms to steer the interplay between diversification and intensification
-in PSO?
--  Discuss the advantages and disadvantages of PSO in comparison to other population and
-trajectory-based optimization strategies
+  - Basically, PSO has a vector of individual solutions
+  - This solution has saved the global best solution position, the current position and the best local reached solution
+  - Based on a formula, the position is updated each round and the fitness is reevaluated
+  - One individuum has the tendency to go to the best global solution, to the best local solution and to continue the current path
+- What are the mechanisms to steer the interplay between diversification and intensification in PSO?
+  - It is steered through the update function:
+  - Diversification: mostly through the tendency, to continue in the current direction
+  - Intensification: tendency to go to the best local and global solution
+-  Discuss the advantages and disadvantages of PSO in comparison to other population and trajectory-based optimization strategies
+   - It has a higher robustness than trajectory based optimization strategies
+   - easy to parallelize
+   - Built in Balance for Exploration and Exploitation
+   - Disadvantages:
+     - Risk of premature Convergence (in Global Topologies)
+     - Sensitive to Parameter Tuning
 
 # Ant Colony Optimization
 - Explain the basic idea of ant colony optimization (ACO).
@@ -16,7 +26,8 @@ trajectory-based optimization strategies
   - intensification: exploitation / use whats is known to be working
   - What the ant does, is based on a probability, that is calculated by the number of remaining nodes, pheromones on the edges and distances of the edges
 - Discuss the advantages and disadvantages of ACO in comparison to other population and trajectory-based optimization strategies
-  - 
+  - Advantages: Relatively fast, adaptability to changing environments
+  - Disadvantages: Requires Graph representation, Only suited for path optimization, Problem formulation very difficult
     
 
 # Variable Neighbourhood Search
