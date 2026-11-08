@@ -1,0 +1,217 @@
+<mxfile host="drawio-plugin" modified="2026-11-08T11:53:33.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="22.1.22" etag="WPeowPRortpPuz729rRQ" type="embed">
+  <diagram id="supportsphere-dfd-task1" name="SupportSphere AI - DFD">
+    <mxGraphModel dx="1359" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tb_clients" value="Client Browser" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CC0000;strokeWidth=2;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontStyle=1;fontColor=#CC0000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="300" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="tb_app" value="SupportSphere Backend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CC0000;strokeWidth=2;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontStyle=1;fontColor=#CC0000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="440" y="60" width="660" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="tb_data" value="Internal Data Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CC0000;strokeWidth=2;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontStyle=1;fontColor=#CC0000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="60" width="380" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="tb_corp" value="Corporate Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CC0000;strokeWidth=2;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontStyle=1;fontColor=#CC0000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="440" y="930" width="660" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="tb_ext_cloud" value="Third-Party LLM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CC0000;strokeWidth=2;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontStyle=1;fontColor=#CC0000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="930" width="380" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ee_employee" value="&lt;b&gt;Employee&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="83" y="257" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ee_agent" value="&lt;b&gt;IT Support Agent&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="445" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ee_admin" value="&lt;b&gt;IT Administrator&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="83" y="627" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ee_iam" value="&lt;b&gt;Microsoft SSO&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="478" y="990" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ee_helpdesk" value="&lt;b&gt;Help-Desk System&lt;/b&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="825" y="990" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ee_llm" value="&lt;b&gt;External LLM Provider&lt;/b&gt;&lt;br&gt;(30-day Prompt Retention)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="990" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_auth" value="Web Gateway" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="533" y="420" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_chat" value="Chat" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="880" y="220" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_ocr" value="Screenshot Upload&lt;br&gt;and extracted Text" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="123" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_kb" value="Knowledge Base&lt;br&gt;and Feedback" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="880" y="420" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_ticket" value="Ticket Management" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="880" y="610" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_admin" value="Admin Config and&lt;br&gt;Logging" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="736" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_conv" value="&lt;b&gt;Conversation &amp;amp; Screenshot Store&lt;/b&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="106" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_kb" value="&lt;b&gt;Internal Knowledge Base&lt;/b&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="335" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d3_config" value="&lt;b&gt;System Config &amp;amp; Credentials&lt;/b&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="570" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d4_audit" value="&lt;b&gt;Audit Log Store&lt;/b&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="766" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f_emp_p1" value="&amp;nbsp;Login, Questions, Screenshots,&lt;br&gt;Ticket Creation, Feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ee_employee" target="p1_auth" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_agent_p1" value="Login, Manage KB,&lt;br&gt;Ticket Management" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;" parent="1" source="ee_agent" target="p1_auth" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_admin_p1" value="&amp;nbsp;Login, Manage Roles, LLM Config,&lt;br&gt;API Keys, View Audit Logs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ee_admin" target="p1_auth" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p1_iam" value="Authorization&lt;br&gt;and Authentication" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;" parent="1" source="p1_auth" target="ee_iam" edge="1">
+          <mxGeometry x="0.2264" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p1_p3" value="Screenshot Image" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;fontSize=11;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="p1_auth" target="p3_ocr" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p1_p2" value="Chat Q&amp;amp;A, History," style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="p1_auth" target="p2_chat" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="644" y="366" />
+              <mxPoint x="899" y="366" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p1_p4" value="KB Update and&lt;br&gt;Feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;" parent="1" source="p1_auth" target="p4_kb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p1_p5" value="Create Ticket" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p1_auth" target="p5_ticket" edge="1">
+          <mxGeometry x="-0.2925" relative="1" as="geometry">
+            <mxPoint x="936" y="602" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="838" y="531" />
+              <mxPoint x="838" y="675" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p1_p6" value="Admin Controlling" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;exitX=0.685;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p1_auth" target="p6_admin" edge="1">
+          <mxGeometry x="0.0138" y="28" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="622" y="801" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p3_p2" value="Extracted Text" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;fontSize=11;" parent="1" source="p3_ocr" target="p2_chat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p3_d1" value="Store Screenshot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;fontSize=11;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="p3_ocr" target="d1_conv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p2_p4" value="Retrieved relevant info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;" parent="1" source="p2_chat" target="p4_kb" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="945" y="379" />
+              <mxPoint x="945" y="379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p2_d1" value="Conversation History" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="p2_chat" target="d1_conv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p2_d3" value="LLM Config and API Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="p2_chat" target="d3_config" edge="1">
+          <mxGeometry x="-0.2182" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1247" y="239" />
+              <mxPoint x="1247" y="605" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p2_llm" value="&amp;nbsp;Prompt (Question + KB)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;strokeColor=#b85450;strokeWidth=2;fontSize=11;" parent="1" source="p2_chat" target="ee_llm" edge="1">
+          <mxGeometry x="-0.149" y="2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="285" />
+              <mxPoint x="1160" y="1035" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p4_d2" value="get KB Docs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="p4_kb" target="d2_kb" edge="1">
+          <mxGeometry x="0.5056" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1410" y="439" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p4_d1" value="&amp;nbsp;Answer Feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;" parent="1" source="p4_kb" target="d1_conv" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1572" y="485" />
+              <mxPoint x="1572" y="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p5_p2" value="AI Summary" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="p5_ticket" target="p2_chat" edge="1">
+          <mxGeometry x="-0.245" y="-2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1046" y="629" />
+              <mxPoint x="1046" y="331" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p5_d1" value="Fetch Chat History &amp;amp; Screenshot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;fontSize=11;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="p5_ticket" target="d1_conv" edge="1">
+          <mxGeometry x="-0.1598" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1586" y="675" />
+              <mxPoint x="1586" y="124" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p5_helpdesk" value="Ticket Payload&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;" parent="1" source="p5_ticket" target="ee_helpdesk" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p6_d3" value="Roles, Settings and Keys" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="p6_admin" target="d3_config" edge="1">
+          <mxGeometry x="-0.2405" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1072" y="755" />
+              <mxPoint x="1072" y="623" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_p6_d4" value="Read and Write Audit Logs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p6_admin" target="d4_audit" edge="1">
+          <mxGeometry x="-0.1292" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1039" y="801" />
+              <mxPoint x="1039" y="801" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_services_p6" value="Audit Events" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;dashed=1;strokeColor=#666666;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p4_kb" target="p6_admin" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="945" y="582" />
+              <mxPoint x="745" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
