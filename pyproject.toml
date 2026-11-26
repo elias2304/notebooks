@@ -8,6 +8,7 @@ dependencies = [
     "datasets>=5.1.0",
     "huggingface-hub>=2.4.0",
     "matplotlib>=3.11.2",
+    "neuralforecast>=3.3.1",
     "notebook>=7.6.3",
     "numpy>=2.5.3",
     "pandas-stubs~=2.3.3",
